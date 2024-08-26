@@ -11,14 +11,17 @@ func main() {
 	result := public.PublicTestDeHuff()
 	fmt.Println(result)
 
-	banana_res := banana.AddBananas(4, 5, "+")
-	fmt.Println(banana_res)
+	bananaRes := banana.AddBananas(4, 5, "+")
+	fmt.Println(bananaRes)
 
-	banana_res2 := banana.MinusBanana(4, 5, "-")
-	fmt.Println(banana_res2)
+	bananaRes2 := banana.MinusBanana(4, 5, "-")
+	fmt.Println(bananaRes2)
 
-	banana_var_import := banana.BananaScopedVar
-	fmt.Println(banana_var_import)
+	bananaVarImport := banana.BananaScopedVar
+	fmt.Println(bananaVarImport)
+
+	fruitReply := banana.ReturnFruit()
+	fmt.Println(fruitReply)
 
 	var a, b, c = 1, 2, "Coders"
 	fmt.Println(a, b, c)
